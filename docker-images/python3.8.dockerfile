@@ -1,6 +1,4 @@
-FROM tiangolo/uwsgi-nginx:python3.8
-
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+FROM d3lt4papa/uwsgi-nginx-arm64:python3.8-arm64
 
 RUN pip install flask
 
